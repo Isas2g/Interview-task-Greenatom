@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Button from "./UI/Button/Button";
 
 const Sort = ({books, setShownBooks}) => {
 
@@ -61,15 +62,19 @@ const Sort = ({books, setShownBooks}) => {
 
     const sortDrop = () => {
         setShownBooks(books);
+        setSortRatingOrder(false);
+        setSortYearsOrder(false);
+        setSortAlphabetOrder(false);
+
     }
 
 
     return (
         <div className={'mt-2'}>
-            <button className={'btn btn-info'} onClick={sortAlphabet}>Сортировка по алфавиту</button>
-            <button className={'m-2 btn btn-info'} onClick={sortRating}>Сортировка по рейтингу</button>
-            <button className={'btn btn-info'} onClick={sortYears}>Сортировка по году издательства</button>
-            <button className={'m-2 btn btn-info'} onClick={sortDrop}>Сбросить</button>
+            <Button className={'btn btn-info'} onClick={sortAlphabet}>Сортировка по алфавиту</Button>
+            <Button className={'m-2 btn btn-info'} onClick={sortRating}>Сортировка по рейтингу</Button>
+            <Button className={'btn btn-info'} onClick={sortYears}>Сортировка по году издательства</Button>
+            <Button className={'m-2 btn btn-info'} onClick={sortDrop}>Сбросить</Button>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Select from "./UI/Select/Select";
+import Button from "./UI/Button/Button";
 
 const Filters = ({books, setShownBooks}) => {
 
@@ -83,8 +84,8 @@ const Filters = ({books, setShownBooks}) => {
                     filterField={'yearOfPublish'}
                 />
                 <div className={'mt-2'}>
-                    <button className={'btn btn-info'} onClick={filterSubmitHandler}>Установить фильтры</button>
-                    <button className={'m-2 btn btn-info'} onClick={dropFiltersHandler}>Сбросить фильтры</button>
+                    <Button className={'btn btn-info'} onClick={filterSubmitHandler}>Установить фильтры</Button>
+                    <Button className={'m-2 btn btn-info'} onClick={dropFiltersHandler}>Сбросить фильтры</Button>
                 </div>
             </form>
         </div>

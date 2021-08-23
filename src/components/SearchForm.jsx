@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Button from "./UI/Button/Button";
 
 const SearchForm = ({setShownBooks, books}) => {
 
@@ -18,7 +19,7 @@ const SearchForm = ({setShownBooks, books}) => {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                     type="text" />
-                <button className={'mt-2 btn btn-primary'}>Найти</button>
+                <Button className={'mt-2 btn btn-primary'}>Найти</Button>
             </form>
         </div>
     );

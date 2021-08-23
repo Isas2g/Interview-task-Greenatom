@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import Button from "./UI/Button/Button";
 
 const Book = ({book, books, setFavoriteBooks, favoriteBooks, isFavorite, setBooks}) => {
 
@@ -41,13 +42,13 @@ const Book = ({book, books, setFavoriteBooks, favoriteBooks, isFavorite, setBook
             <p>Автор: {book.author}</p>
             <div>
                 {isFavorite
-                    ? <button className={'btn btn-danger'} onClick={removeFromFavorite}>Удалить из избранного</button>
-                    : <button className={'btn btn-success'} onClick={addToFavorite}>Добавить в избраное</button>
+                    ? <Button className={'btn btn-danger'} onClick={removeFromFavorite}>Удалить из избранного</Button>
+                    : <Button className={'btn btn-success'} onClick={addToFavorite}>Добавить в избраное</Button>
                 }
             </div>
             <div className={'btn-group mt-2'}>
-                <button className={'btn btn-success'} onClick={addRating}>+</button>
-                <button className={'btn btn-warning'} onClick={removeRating}>-</button>
+                <Button className={'btn btn-success'} onClick={addRating}>+</Button>
+                <Button className={'btn btn-warning'} onClick={removeRating}>-</Button>
             </div>
         </div>
     );
