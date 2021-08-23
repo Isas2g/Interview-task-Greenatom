@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title":  "fFEFE",
+    "description": "ffafafafafafafafafafafaaafdfsdogpemr[agmpdv,promzfperogenb;zf",
+    "rating": 2,
+    "publisher":"Phoenix",
+    "yearOfPublish": 1954,
+    "isFavorite": false,
+    "author":"Pushkin"
+  },
+  {
+    "id": 2,
+    "title":  "asFEFE",
+    "description": "ffafafafafafafafafafafaaafdfsdogpemr[agmpdv,promzfperogenb;zf",
+    "rating": 3,
+    "publisher": "Altai",
+    "yearOfPublish": 1964,
+    "isFavorite": false,
+    "author": "Pushkin"
+  },
+  {
+    "id": 3,
+    "title":  "gsdFE",
+    "description": "ffafafafafafafafafafafaaafdfsdogpemr[agmpdv,promzfperogenb;zf",
+    "rating": 4,
+    "publisher": "Phoenix",
+    "yearOfPublish": 1946,
+    "isFavorite": false,
+    "author": "Dostoevsky"
+  },
+  {
+    "id": 4,
+    "title":  "gfsfeFE",
+    "description": "ffafafafafafafafafafafaaafdfsdogpemr[agmpdv,promzfperogenb;zf",
+    "rating": 5,
+    "publisher": "Altai",
+    "yearOfPublish": 1978,
+    "isFavorite": false,
+    "author": "Dostoevsky"
+  },
+  {
+    "id": 5,
+    "title":  "jtFE",
+    "description": "ffafafafafafafafafafafaaafdfsdogpemr[agmpdv,promzfperogenb;zf",
+    "rating": 1,
+    "publisher": "Phoenix",
+    "yearOfPublish": 1943,
+    "isFavorite": false,
+    "author": "Pushkin"
+  },
+  {
+    "id": 6,
+    "title":  "bdfFE",
+    "description": "ffafafafafafafafafafafaaafdfsdogpemr[agmpdv,promzfperogenb;zf",
+    "rating": 3,
+    "publisher": "Phoenix",
+    "yearOfPublish": 1946,
+    "isFavorite": false,
+    "author": "Dostoevsky"
+  }
+]
