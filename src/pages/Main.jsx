@@ -9,7 +9,10 @@ const Main = () => {
 
     const [books, setBooks] = useState([]);
     const [shownBooks, setShownBooks] = useState([]);
-    const [favoriteBooks, setFavoriteBooks] = useState([]);
+    const [favoriteBooks, setFavoriteBooks] = useState(localStorage.getItem('favorites')
+        ? JSON.parse(localStorage.getItem('favorites'))
+        : []
+    );
 
     useEffect(() => {
         getBooks(setBooks, setShownBooks);
